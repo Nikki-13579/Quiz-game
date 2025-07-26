@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8fafc;
+  margin: 0;
+  padding: 20px;
+  color: #111827;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #e0f2fe;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #bae6fd;
+}
+
+h1 {
+  text-align: center;
+  color: #1e3a8a;
+}
+
+.name-field {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.name-field input {
+  padding: 8px;
+  width: 60%;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.question-box {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.result-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fff7ed;
+  border: 1px solid #fed7aa;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #92400e;
+  display: none;
+}
